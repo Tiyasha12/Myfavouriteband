@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>ACTIVITY-5</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+.topnav {
+  overflow: hidden;
+  background-color:black;
+  position: absolute;
+  width:100%;
+  top: 0;
+  left: 0;
+}
+.topnav a {
+    float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding:16px;
+  text-decoration: none;
+ }
+ .topnav a:hover {
+  background-color:white;
+  color: black;
+}
+.mySlides{width: 100%;
+  height: 1000px;
+  background-size: 100% 100%;
+  border: 1px solid ;
+  margin-top:2%;
+  background-image: url("pictures/member.jpg");
+  background-color: gray;
+}
+.music{
+  background-color: black;
+  color: white;
+  text-align:center ;
+    max-width:1600px;
+}
+.member{
+  color:black;
+  text-align:center;
+  max-width: 1600px;
+  background-color: gray;
+}
+.column {
+  float: left;
+  width: 33%;
+  padding: 50px;
+  height: auto; 
+  flex:30%;
+  }
+  .w3-row{
+  content: "";
+  display: flex;
+  clear: both;
+  flex-wrap: wrap;
+}
+.about{
+  text-align: center;
+  max-width: 1600px;
+  color: white;
+  background-color: black;
+}
+.footer {
+  background-color:gray;
+  text-align: center;
+  padding-top: 0%;
+}
+@media screen and (max-width: 700px) {
+  .w3-row.topnav{
+    flex-direction: column;
+  }
+  .column {
+    width: 100%;
+  }
+</style></head>
+<body>
+    <div class="topnav">
+        <a href="#music">Music</a>
+        <a href="#members">Members</a>
+        <a href="#about">About</a>
+      </div>
+    <!--Images -->
+      <div class="mySlides">
+          <img src="pictures/onedirection.png" style="margin-left:25%;
+          margin-right: auto;
+          margin-top: 1%;
+          width: 50%;">
+        </div></div>
+        <div class="music" id="music">
+          <h2 style= "margin-top: 0%;text-decoration:underline";font-family:"Lato", sans-serif>MUSIC</h2>
+        <iframe  float="left"width="750px"height="500px"
+src="https://www.youtube.com/embed/UpsKGvPjAgw"></iframe>
+<iframe float="right" width="750px"height="500px"
+src="https://www.youtube.com/embed/o_v9MY_FMcw"></iframe>
+</iframe>
+<iframe float="left"width="750px"height="500px"  src="https://www.youtube.com/embed/QJO3ROT-A4E"></iframe>
+<iframe float="right" width="750px"height="500px" src="https://www.youtube.com/embed/syFZfO_wfMQ"></iframe></div>
+<div class="member" id="members">
+  <h2 style= "margin-top: 0%;text-decoration:underline";font-family:"Lato", sans-serif>MEMBERS</h2>
+  <div class="w3-row">
+    <div class="column">
+      <img src="pictures/harry.jpg" style="margin-left:auto; margin-right: auto; max-width: 100% ;
+      height: auto ;">
+    </div>
+    <div class="column">
+      <h2 style="font-family: 'Source Code Pro';
+      font-weight: 300;
+      font-size: 666%;">HARRY</h2>
+      <a href="https://hstyles.co.uk/"target='_blank'><h3 text-decoration="underline"><i>HELLO!!</i></h3></a>
+    </div>
+    <div class="column">
+      <img src="pictures/harry.jpg" style="margin-left:auto; margin-right: auto; max-width: 100% ;
+      height: auto ;">
+    </div>
+  </div>
+  <div class="w3-row">
+    <div class="column">
+      <img src="pictures/ZaynMalik.jpg" style="margin-left:auto; margin-right: auto; max-width: 100% ;
+      height: auto ;">
+    </div>
+    <div class="column">
+      <h2 style="font-family: 'Source Code Pro';
+      font-weight: 300;
+      font-size: 666%;">ZAYN</h2>
+      <a href="http://inzayn.com/"target='_blank'><h3 text-decoration="underline"><i>HEY THERE!!</i></h3></a>
+    </div>
+    <div class="column">
+      <img src="pictures/ZaynMalik.jpg" style="margin-left:auto; margin-right: auto; max-width: 100% ;
+      height: auto ;">
+    </div></div>
+    <div class="w3-row">
+      <div class="column">
+        <img src="pictures/louis.jpg" style="margin-left:auto; margin-right: auto; max-width: 100% ;
+        height: auto ;">
+      </div>
+      <div class="column">
+        <h2 style="font-family: 'Source Code Pro';
+        font-weight: 300;
+        font-size: 666%;">LOUIS</h2>
+        <a href="https://www.louis-tomlinson.com/"target='_blank'><h3 text-decoration="underline"><i>HELLO PEOPLE!!</i></h3></a>
+      </div>
+      <div class="column">
+        <img src="pictures/louis.jpg" style="margin-left:auto; margin-right: auto; max-width: 100% ;
+        height: auto ;"></div></div>
+        <div class="w3-row">
+          <div class="column">
+            <img src="pictures/liam.jpg" style="margin-left:auto; margin-right: auto; max-width: 100% ;
+            height: auto ;">
+          </div>
+          <div class="column">
+            <h2 style="font-family: 'Source Code Pro';
+            font-weight: 300;
+            font-size: 666%;">LIAM</h2>
+            <a href="https://www.liampayneofficial.com/"target='_blank'><h3 text-decoration="underline"><i>HEY!!</i></h3></a>
+          </div>
+          <div class="column">
+            <img src="pictures/liam.jpg" style="margin-left:auto; margin-right: auto; max-width: 100% ;
+            height: auto ;"></div></div>
+            <div class="w3-row">
+              <div class="column">
+                <img src="pictures/nisll.jpg" style="margin-left:auto; margin-right: auto; max-width: 100% ;
+                height: auto ;">
+              </div>
+              <div class="column">
+                <h2 style="font-family: 'Source Code Pro';
+                font-weight: 300;
+                font-size: 666%;">NIALL</h2>
+                <a href="https://www.niallhoran.com/"target='_blank'><h3 text-decoration="underline"><i>HEY GUYS!!</i></h3></a>
+              </div>
+              <div class="column">
+                <img src="pictures/nisll.jpg" style="margin-left:auto; margin-right: auto; max-width: 100% ;
+                height: auto ;"></div></div>
+</div>
+<div class="about" id="about">
+  <h2 style= "margin-top: 0%;text-decoration:underline";font-family:"Lato", sans-serif>ABOUT</h2>
+<p style= "padding-left:20%; padding-right: 20%">Considered teen idols, One Direction were often subject to fan hysteria.They have embarked on four world tours, two of which were all-stadium. The band's Where We Are Tour, in support of Midnight Memories, was the highest-grossing concert tour in 2014, the highest-grossing tour by a vocal group in history, and the 15th highest-grossing concert tour of all time, grossing $290.2 million (unadjusted for inflation).The band went on hiatus in January 2016, allowing all members to pursue other projects.</p>
+<p style= "padding-left:20%; padding-right: 20%">As of 2020, the band have sold a total of 70 million records worldwide,making them one of the best-selling boy bands of all time. The band have won nearly 200 awards, including seven Brit Awards, four MTV Video Music Awards, six Billboard Music Awards, seven American Music Awards (including Artist of the Year in 2014 and 2015), and 28 Teen Choice Awards. In 2013, they earned an estimated $75 million, becoming the second highest earning celebrity under 30 according to Forbes. Being the world’s best-selling artist of 2013, the International Federation of the Phonographic Industry (IFPI) named them the Global Recording Artist of the Year. In 2014, Billboard named the band "Artist of the Year". Forbes ranked them as the fourth highest-earning celebrities in the world in 2015,and second in 2016.</p>
+<a href="https://en.wikipedia.org/wiki/One_Direction"target='_blank'><p text-decoration="underline"><i>TO KNOW MORE!!</i></p></a>
+<div class="footer" style="color: black;">
+  <p>NAME: Tiyasha Chakraborty</p>
+  <p>STUDY-YEAR: 2nd</p>
+  <p>DISCIPLINE: HCD</p>
+  <p>UPSKILLING: HTML AND CSS</p>
+  <p>SEPTEMBER 2020</p>
+</div></div>
+</body></html>
